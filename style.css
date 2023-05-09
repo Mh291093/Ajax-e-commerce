@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+  
+.logo a {
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+  
+nav ul {
+    display: flex;
+    list-style: none;
+}
+  
+nav li {
+    margin-right: 20px;
+}
+  
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+  
+.cart a {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.prod-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 280px);
+    justify-content: center;
+    gap: 16px;
+    padding: 16px;
+}
+
+.card-prod {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 16px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #00000020;
+    background-color: #fff;
+}
+
+.card-prod-img {
+    height: 200px;
+}
+
+.card-prod-img img {
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: cover;
+}
+  
+.card-prod h3 {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+  
+.card-prod h4 {
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    font-weight: 500;
+    color: #000000aa;
+}
+  
+.card-prod p {
+    font-size: 0.9rem;
+    text-transform: capitalize;
+    font-weight: 300;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+  
+.social-icons a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+}
+  
+nav ul {
+    display: flex;
+    list-style: none;
+}
+  
+nav li {
+    margin-right: 20px;
+}
+  
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+  
+p {
+    margin: 10px 0;
+    font-size: 0.8rem;
+    color: #333;
+}
+    
